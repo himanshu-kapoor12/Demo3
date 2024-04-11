@@ -1,0 +1,8 @@
+name: Demo Workflow
+on:
+  push:
+   branches:
+    - main
+    jobs:
+     Supervisor:
+      runs on: ubuntu-latest
